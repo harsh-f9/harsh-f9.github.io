@@ -21,11 +21,13 @@ I am not suggesting to shut yourself out of it. Because you can't. You can have 
 
 [Digital Zen](https://www.digitalzen.app/)
 
+![](assets/images/1.png)
+
 ## Features
 
 I use Digital Zen to fix this exact loop. Instead of relying on raw willpower, it acts as an intelligent system that governs your digital environment based on your actual intentions—not your short-term impulses.
 
-> **[INSERT SCREENSHOT: App Dashboard / Overview]**
+![](assets/images/2.png)
 
 ### Intelligent Content Blocking
 
@@ -34,7 +36,8 @@ Most blockers are an "all-or-nothing" switch, which just isn't practical. Digita
 * **Granular URL & App Control:** Block whole categories like social media, streaming, or adult sites, or set a daily usage allowance before the block kicks in.
 * **Regex & Subdomain Precision:** This is the game-changer. You don't have to block YouTube entirely if you use it for learning. You can specifically target `[youtube.com/shorts](https://youtube.com/shorts)` or `[instagram.com/reels](https://instagram.com/reels)` while leaving the main, useful parts of the sites completely accessible.
 
-> **[INSERT SCREENSHOT: Regex/Subdomain blocking rule setup (e.g., blocking /shorts)]**
+![](assets/images/3.png)
+![](assets/images/4.png)
 
 ### Smart Moderation & Work-Life Balance
 
@@ -46,7 +49,8 @@ You don't need to quit the internet; you just need boundaries that enforce thems
 * **Evening Shutdown:** Block workspace tools like Notion, Google Docs, or Slack after work hours. No more checking emails or tweaking docs at 9 PM when you should be relaxing.
 * **Sleep & Weekend Cold Turkey:** Disconnect from work and distraction-heavy apps completely so you can actually spend quality, present time with family.
 
-> **[INSERT SCREENSHOT: Schedule view showing Work, Learning, and Evening Shutdown blocks]**
+![](assets/images/5.png)
+![](assets/images/6.png)
 
 ### Focus Sessions (Instant Setup)
 
@@ -56,7 +60,7 @@ Setting up elaborate rules takes effort, and procrastination loves complexity. I
 * **Flexible Modes:** Built-in support for Simple timers, Pomodoro cycles, or an open-ended Stopwatch mode.
 * **Team Focus:** Bring friends or classmates into shared, real-time group focus sessions. It recreates the accountability of an old-school library study group, right from your desk.
 
-> **[INSERT SCREENSHOT: Active Focus Session / Pomodoro timer screen]**
+![](assets/images/7.png)
 
 ---
 
@@ -74,13 +78,12 @@ When you set a rule, you can lock it using different friction methods so you can
 * **Financial Accountability:** Pay a small fee/donation to break your rule early. If you really want to scroll, it's going to cost you.
 * **Schedule Lock:** The profile can literally only be edited or unlocked during a specific, pre-designated time window (e.g., 9:30 PM – 10:00 PM).
 
-> **[INSERT SCREENSHOT: Locking options menu (Code, Cooldown, Friend, Money, Schedule)]**
+![](assets/images/8.png)
+![](assets/images/9.png)
 
 ### Hardened Protection & Cross-Platform Power
 
 * **Impossible to Bypass:** Unlike simple browser extensions that you can disable in two clicks, Digital Zen is deeply integrated into your OS to prevent sneaky uninstall tricks or force-closing.
 * **Native Linux Support:** Cold Turkey and other popular blockers have ignored Linux users for years. **Digital Zen is the only foolproof, system-level app blocker natively supported on Linux** (alongside Windows and Mac).
-
-> **[INSERT SCREENSHOT: Digital Zen running smoothly on a Linux desktop environment]**
 
 You don't need more self-control. You just need a system that respects how your mind actually works.
