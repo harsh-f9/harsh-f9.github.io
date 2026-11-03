@@ -122,3 +122,17 @@ document.querySelectorAll('a[href="#home"]').forEach(link => link.addEventListen
   history.replaceState(null, '', '#home');
   window.scrollTo({top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
 }));
+
+// Keep the supplied SVG live, with a still companion for pause and reduced motion.
+const rideScene = document.querySelector('#ride-scene');
+const rideToggle = document.querySelector('#toggle-ride');
+const rideMotion = matchMedia('(prefers-reduced-motion: reduce)');
+function setRidePaused(paused) {
+  rideScene.src = paused ? 'assets/pelican-bicycle-still.svg' : 'assets/pelican-bubu-dudu-bicycle.svg';
+  rideToggle.setAttribute('aria-pressed', String(paused));
+  rideToggle.textContent = paused ? 'Play animation' : 'Pause animation';
+  rideToggle.setAttribute('aria-label', paused ? 'Play bicycle animation' : 'Pause bicycle animation');
+}
+setRidePaused(rideMotion.matches);
+rideToggle.addEventListener('click', () => setRidePaused(rideToggle.getAttribute('aria-pressed') !== 'true'));
+rideMotion.addEventListener('change', event => setRidePaused(event.matches));

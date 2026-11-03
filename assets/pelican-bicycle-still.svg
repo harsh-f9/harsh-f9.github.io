@@ -1,0 +1,1279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <!-- Sky and Scenery Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ab9ff"/>
+      <stop offset="52%" stop-color="#b3e5fc"/>
+      <stop offset="78%" stop-color="#ffe0b2"/>
+      <stop offset="100%" stop-color="#ffab91"/>
+    </linearGradient>
+
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#ffd54f" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffb300" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="farHillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8fd19e"/>
+      <stop offset="100%" stop-color="#5ea878"/>
+    </linearGradient>
+
+    <linearGradient id="midHillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#76c479"/>
+      <stop offset="100%" stop-color="#489852"/>
+    </linearGradient>
+
+    <linearGradient id="grassStripGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#68b85e"/>
+      <stop offset="100%" stop-color="#3f873a"/>
+    </linearGradient>
+
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3dfc1"/>
+      <stop offset="15%" stop-color="#e7cba4"/>
+      <stop offset="88%" stop-color="#d5b284"/>
+      <stop offset="100%" stop-color="#b58e5d"/>
+    </linearGradient>
+
+    <!-- Pelican Gradients -->
+    <linearGradient id="pelicanBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#f8f6f0"/>
+      <stop offset="100%" stop-color="#e2ddd2"/>
+    </linearGradient>
+
+    <linearGradient id="pelicanWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f0ece1"/>
+      <stop offset="100%" stop-color="#d2cbc0"/>
+    </linearGradient>
+
+    <linearGradient id="beakTopGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffca28"/>
+      <stop offset="70%" stop-color="#ffa000"/>
+      <stop offset="100%" stop-color="#ff7043"/>
+    </linearGradient>
+
+    <linearGradient id="pouchGrad" x1="0%" y1="0%" x2="20%" y2="100%">
+      <stop offset="0%" stop-color="#ffb74d"/>
+      <stop offset="55%" stop-color="#ff8a65"/>
+      <stop offset="100%" stop-color="#f4511e"/>
+    </linearGradient>
+
+    <!-- Bicycle Gradients -->
+    <linearGradient id="bikeFrameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#26c6da"/>
+      <stop offset="50%" stop-color="#00acc1"/>
+      <stop offset="100%" stop-color="#007c91"/>
+    </linearGradient>
+
+    <linearGradient id="chromeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#cfd8dc"/>
+      <stop offset="100%" stop-color="#90a4ae"/>
+    </linearGradient>
+
+    <linearGradient id="basketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6b87d"/>
+      <stop offset="100%" stop-color="#b87e3e"/>
+    </linearGradient>
+
+    <!-- Dudu and Bubu Gradients -->
+    <radialGradient id="duduFurGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#d7a982"/>
+      <stop offset="65%" stop-color="#c38e64"/>
+      <stop offset="100%" stop-color="#a46f46"/>
+    </radialGradient>
+
+    <radialGradient id="bubuFurGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="75%" stop-color="#fcfaf7"/>
+      <stop offset="100%" stop-color="#ebe4dc"/>
+    </radialGradient>
+
+    <radialGradient id="cheekBlush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff7799" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#ff8da8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff8da8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Trump-Dragon Boss Gradients -->
+    <linearGradient id="trumpDragonSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffa726"/>
+      <stop offset="55%" stop-color="#fb8c00"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+
+    <linearGradient id="trumpBellyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe082"/>
+      <stop offset="60%" stop-color="#ffca28"/>
+      <stop offset="100%" stop-color="#ffb300"/>
+    </linearGradient>
+
+    <linearGradient id="trumpHairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff59d"/>
+      <stop offset="55%" stop-color="#fdd835"/>
+      <stop offset="100%" stop-color="#f9a825"/>
+    </linearGradient>
+
+    <linearGradient id="dragonWingInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#ef6c00"/>
+    </linearGradient>
+
+    <!-- Team-Up Power Beam Gradients -->
+    <linearGradient id="teamBeamOuter" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4081" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#ff80ab" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#ffd740" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="teamBeamCore" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fff9c4"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <radialGradient id="impactExplosionGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffee58" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#ff4081" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff4081" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="heroAuraGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff80ab" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#ffd54f" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Reusable Scenery Elements -->
+    <g id="fluffyCloud">
+      <path d="M 0,0 C -25,0 -40,-15 -35,-32 C -32,-45 -18,-54 -2,-50 C 10,-68 38,-72 56,-56 C 72,-62 92,-52 95,-34 C 112,-32 122,-18 118,-4 C 115,6 102,10 88,10 L -15,10 C -28,10 -36,4 -35,-4 Z" fill="#ffffff" opacity="0.92"/>
+      <path d="M -20,10 L 100,10 C 112,10 118,4 116,-3 C 100,4 65,4 35,2 C 5,4 -15,3 -30,-2 C -32,5 -26,10 -20,10 Z" fill="#dff3ff" opacity="0.7"/>
+    </g>
+
+    <g id="scenicTree">
+      <rect x="-8" y="0" width="16" height="48" rx="4" fill="#795548"/>
+      <path d="M -8,18 L -22,6" stroke="#795548" stroke-width="5" stroke-linecap="round"/>
+      <path d="M 6,12 L 20,2" stroke="#795548" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="0" cy="-26" r="36" fill="#55b35b"/>
+      <circle cx="-24" cy="-12" r="26" fill="#469e4c"/>
+      <circle cx="24" cy="-12" r="26" fill="#68c76e"/>
+      <circle cx="0" cy="-42" r="25" fill="#7ad680"/>
+      <circle cx="-16" cy="-28" r="4" fill="#ff8a80"/>
+      <circle cx="18" cy="-20" r="4" fill="#ff8a80"/>
+      <circle cx="4" cy="-46" r="4" fill="#ffd54f"/>
+    </g>
+
+    <g id="flowerBush">
+      <path d="M -32,0 C -36,-18 -20,-32 -6,-26 C 2,-38 22,-36 28,-22 C 40,-20 44,-6 36,0 Z" fill="#3d9142"/>
+      <path d="M -24,0 C -26,-12 -14,-22 -4,-18 C 4,-26 18,-25 22,-14 C 30,-12 32,-4 26,0 Z" fill="#54b259"/>
+      <circle cx="-14" cy="-14" r="4.5" fill="#fff176"/>
+      <circle cx="-14" cy="-14" r="2" fill="#ff8f00"/>
+      <circle cx="6" cy="-20" r="4.5" fill="#ff80ab"/>
+      <circle cx="6" cy="-20" r="2" fill="#fff176"/>
+      <circle cx="20" cy="-10" r="4.5" fill="#ffffff"/>
+      <circle cx="20" cy="-10" r="2" fill="#ffca28"/>
+    </g>
+
+    <!-- Detailed Bicycle Wheel (Radius 78) -->
+    <g id="bicycleWheel">
+      <circle cx="0" cy="0" r="78" fill="none" stroke="#2d3748" stroke-width="11"/>
+      <circle cx="0" cy="0" r="70.5" fill="none" stroke="#fff8e7" stroke-width="4.5"/>
+      <circle cx="0" cy="0" r="66.5" fill="none" stroke="#cfd8dc" stroke-width="3.5"/>
+      <g stroke="#b0bec5" stroke-width="1.8">
+        <line x1="-65" y1="0" x2="65" y2="0"/>
+        <line x1="0" y1="-65" x2="0" y2="65"/>
+        <line x1="-46" y1="-46" x2="46" y2="46"/>
+        <line x1="-46" y1="46" x2="46" y2="-46"/>
+        <line x1="-60" y1="-25" x2="60" y2="25"/>
+        <line x1="-25" y1="-60" x2="25" y2="60"/>
+        <line x1="-60" y1="25" x2="60" y2="-25"/>
+        <line x1="-25" y1="60" x2="25" y2="-60"/>
+      </g>
+      <rect x="38" y="-4" width="11" height="8" rx="3" fill="#ff9100" stroke="#ffffff" stroke-width="1"/>
+      <rect x="-49" y="-4" width="11" height="8" rx="3" fill="#ff9100" stroke="#ffffff" stroke-width="1"/>
+      <circle cx="0" cy="0" r="82.5" fill="none" stroke="#1a202c" stroke-width="2" stroke-dasharray="6 14"/>
+      <circle cx="0" cy="0" r="10" fill="#00acc1" stroke="#ffffff" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="4" fill="#37474f"/>
+    </g>
+
+    <!-- Heart Particle -->
+    <g id="miniHeart">
+      <path d="M 0,4 C -2,0 -9,-2 -9,4 C -9,9 0,14 0,17 C 0,14 9,9 9,4 C 9,-2 2,0 0,4 Z" fill="#ff4081" stroke="#ffffff" stroke-width="1.5"/>
+    </g>
+
+    <!-- Golden Star Particle -->
+    <g id="goldStar">
+      <polygon points="0,-12 3.5,-4 12,-3 6,3 7.5,11 0,7 -7.5,11 -6,3 -12,-3 -3.5,-4" fill="#ffd740" stroke="#e65100" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <style>
+    /* Smooth CSS Animations for Scenery, Characters and Boss Battle */
+    .sun-rays {
+      transform-origin: 180px 105px;
+      animation:none;
+    }
+    @keyframes spinSlow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .cloud-slow {
+      animation:none;
+    }
+    .cloud-med {
+      animation:none;
+    }
+    @keyframes driftSlow {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-1200px); }
+    }
+
+    .bg-midground-scroll {
+      animation:none;
+    }
+    @keyframes scrollMid {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-1200px); }
+    }
+
+    .road-scroll {
+      animation:none;
+    }
+    @keyframes scrollFast {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-240px); }
+    }
+
+    .fg-scroll {
+      animation:none;
+    }
+    @keyframes scrollFg {
+      from { transform: translateX(0px); }
+      to { transform: translateX(-600px); }
+    }
+
+    /* Pelican and Bike Bounce */
+    .bike-bounce {
+      animation:none;
+    }
+    @keyframes bikeBounce {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-5px); }
+    }
+
+    /* Pelican Pouch Wobble */
+    .pouch-jiggle {
+      transform-origin: 655px 195px;
+      animation:none;
+    }
+    @keyframes pouchJiggle {
+      0% { transform: rotate(-2.5deg) scaleY(0.97); }
+      100% { transform: rotate(3.5deg) scaleY(1.05); }
+    }
+
+    /* Pelican Head Bob */
+    .pelican-head-bob {
+      transform-origin: 575px 215px;
+      animation:none;
+    }
+    @keyframes headBob {
+      0%, 100% { transform: rotate(-2deg) translateY(0px); }
+      50% { transform: rotate(3deg) translateY(3px); }
+    }
+
+    /* Scarf and Cape Flutter */
+    .scarf-flutter {
+      transform-origin: 558px 236px;
+      animation:none;
+    }
+    @keyframes scarfWave {
+      0% { transform: rotate(-7deg) scaleY(0.95); }
+      100% { transform: rotate(9deg) scaleY(1.06); }
+    }
+
+    /* Eye Blink */
+    .eye-blink {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation:none;
+    }
+    @keyframes blink {
+      0%, 92%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.08); }
+    }
+
+    /* Bubu and Dudu Heroic Team-Up Run and Attack Bounce */
+    .dudu-body-bounce {
+      animation:none;
+    }
+    @keyframes duduHeroBounce {
+      0% { transform: translateY(3px) rotate(3deg) scale(1.02, 0.97); }
+      100% { transform: translateY(-15px) rotate(-4deg) scale(0.98, 1.03); }
+    }
+
+    .bubu-body-bounce {
+      animation:none;
+    }
+    @keyframes bubuHeroBounce {
+      0% { transform: translateY(-14px) rotate(-3deg) scale(0.98, 1.03); }
+      100% { transform: translateY(4px) rotate(4deg) scale(1.03, 0.96); }
+    }
+
+    .dudu-leg-front {
+      transform-origin: 675px 548px;
+      animation:none;
+    }
+    .dudu-leg-back {
+      transform-origin: 648px 548px;
+      animation:none;
+    }
+    .bubu-leg-front {
+      transform-origin: 545px 560px;
+      animation:none;
+    }
+    .bubu-leg-back {
+      transform-origin: 575px 560px;
+      animation:none;
+    }
+
+    @keyframes legSwingA {
+      0% { transform: rotate(-42deg); }
+      100% { transform: rotate(38deg); }
+    }
+    @keyframes legSwingB {
+      0% { transform: rotate(38deg); }
+      100% { transform: rotate(-42deg); }
+    }
+
+    /* Pinwheel Staff Spin */
+    .pinwheel-spin {
+      transform-origin: 735px 468px;
+      animation:none;
+    }
+    @keyframes spinFast {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Dust Puffs */
+    .dust-1 {
+      animation:none;
+    }
+    .dust-2 {
+      animation:none;
+    }
+    @keyframes dustPop {
+      0% { transform: translate(0px, 0px) scale(0.3); opacity: 0.85; }
+      100% { transform: translate(-48px, -14px) scale(1.35); opacity: 0; }
+    }
+
+    /* ==================== TRUMP-DRAGON BOSS BATTLE CYCLE (3.2s Loop) ==================== */
+    /*
+      0% - 28%: Dragon swoops in from the right looking smug and roaring
+      30% - 78%: Bubu and Dudu fire their Combined Love-Rainbow Beam + Fish Torpedo!
+                 Dragon gets zapped, shakes violently, hair pops up, dizzy stars spin, pushed back!
+      80% - 100%: Dragon gets knocked back to the right, reeling before charging in again!
+    */
+    .trump-dragon-boss {
+      animation:none;
+    }
+    @keyframes dragonBattleCycle {
+      0% {
+        transform: translate(190px, -30px) rotate(6deg) scale(0.96);
+      }
+      22% {
+        transform: translate(0px, 8px) rotate(-6deg) scale(1.03);
+      }
+      30% {
+        transform: translate(-15px, 0px) rotate(-8deg) scale(1.04);
+      }
+      36% {
+        transform: translate(28px, -18px) rotate(12deg) scale(0.97, 1.05);
+      }
+      42% {
+        transform: translate(12px, -8px) rotate(6deg) scale(1.04, 0.96);
+      }
+      48% {
+        transform: translate(38px, -24px) rotate(16deg) scale(0.96, 1.05);
+      }
+      54% {
+        transform: translate(22px, -12px) rotate(10deg) scale(1.03, 0.97);
+      }
+      62% {
+        transform: translate(55px, -28px) rotate(20deg) scale(0.95, 1.04);
+      }
+      76% {
+        transform: translate(155px, -55px) rotate(32deg) scale(0.88);
+      }
+      100% {
+        transform: translate(190px, -30px) rotate(6deg) scale(0.96);
+      }
+    }
+
+    /* Dragon Wings Flap */
+    .dragon-wing-flap {
+      transform-origin: 1035px 315px;
+      animation:none;
+    }
+    @keyframes wingFlap {
+      0% { transform: rotate(-18deg) scaleY(0.92); }
+      100% { transform: rotate(24deg) scaleY(1.08); }
+    }
+
+    /* Dragon Hair Pompadour Bounce and Ruffle */
+    .trump-hair-wave {
+      transform-origin: 965px 210px;
+      animation:none;
+    }
+    @keyframes hairRuffle {
+      0%, 28% { transform: rotate(0deg) translateY(0px); }
+      35%, 50%, 65% { transform: rotate(18deg) translateY(-16px) scale(1.08); }
+      42%, 58% { transform: rotate(-8deg) translateY(-6px); }
+      80%, 100% { transform: rotate(0deg) translateY(0px); }
+    }
+
+    /* Long Red Tie Wild Swing */
+    .red-tie-swing {
+      transform-origin: 955px 362px;
+      animation:none;
+    }
+    @keyframes tieFlap {
+      0% { transform: rotate(12deg); }
+      100% { transform: rotate(48deg); }
+    }
+
+    /* Dragon Tail Thrash */
+    .dragon-tail-wag {
+      transform-origin: 1075px 465px;
+      animation:none;
+    }
+    @keyframes tailWag {
+      0% { transform: rotate(-12deg); }
+      100% { transform: rotate(16deg); }
+    }
+
+    /* Bubu and Dudu Team-Up Laser Beam Visibility and Pulse */
+    .team-up-beam {
+      transform-origin: 695px 445px;
+      animation:none;
+    }
+    @keyframes beamBlast {
+      0%, 24% {
+        opacity: 0;
+        transform: scaleX(0.05) scaleY(0.2);
+      }
+      29% {
+        opacity: 1;
+        transform: scaleX(1) scaleY(1.18);
+      }
+      38% {
+        opacity: 1;
+        transform: scaleX(1.04) scaleY(0.92);
+      }
+      47% {
+        opacity: 1;
+        transform: scaleX(1.08) scaleY(1.22);
+      }
+      56% {
+        opacity: 1;
+        transform: scaleX(1.05) scaleY(0.95);
+      }
+      66% {
+        opacity: 1;
+        transform: scaleX(1.12) scaleY(1.15);
+      }
+      76%, 100% {
+        opacity: 0;
+        transform: scaleX(1.2) scaleY(0.1);
+      }
+    }
+
+    /* Impact Explosion and Dizzy Stars on Dragon (Active 28% - 76%) */
+    .boss-hit-fx {
+      transform-origin: 935px 330px;
+      animation:none;
+    }
+    @keyframes hitBurst {
+      0%, 26% { opacity: 0; transform: scale(0.3); }
+      31% { opacity: 1; transform: scale(1.15) rotate(-8deg); }
+      42% { opacity: 0.9; transform: scale(0.92) rotate(8deg); }
+      54% { opacity: 1; transform: scale(1.22) rotate(-6deg); }
+      66% { opacity: 0.95; transform: scale(1.05) rotate(10deg); }
+      77%, 100% { opacity: 0; transform: scale(0.2); }
+    }
+
+    /* Dizzy Spiral Eyes on Dragon when Hit */
+    .dragon-dizzy-eyes {
+      animation:none;
+    }
+    .dragon-normal-eyes {
+      animation:none;
+    }
+    @keyframes showWhenHit {
+      0%, 27% { opacity: 0; }
+      28%, 78% { opacity: 1; }
+      79%, 100% { opacity: 0; }
+    }
+    @keyframes hideWhenHit {
+      0%, 27% { opacity: 1; }
+      28%, 78% { opacity: 0; }
+      79%, 100% { opacity: 1; }
+    }
+
+    /* Orbiting KO Stars above Dragon's Comb-Over */
+    .ko-stars-spin {
+      transform-origin: 965px 155px;
+      animation:none;
+    }
+    @keyframes koOrbit {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Hero Aura Around Bubu and Dudu */
+    .hero-aura {
+      transform-origin: 615px 465px;
+      animation:none;
+    }
+    @keyframes auraPulse {
+      0% { transform: scale(0.95); opacity: 0.7; }
+      100% { transform: scale(1.08); opacity: 1; }
+    }
+
+    /* Flying Heart and Star Projectiles inside Beam */
+    .projectile-flight-1 {
+      animation:none;
+    }
+    .projectile-flight-2 {
+      animation:none;
+    }
+    .projectile-flight-3 {
+      animation:none;
+    }
+    @keyframes shootRight {
+      0% { transform: translate(680px, 445px) scale(0.6) rotate(0deg); opacity: 1; }
+      100% { transform: translate(940px, 345px) scale(1.35) rotate(360deg); opacity: 0.9; }
+    }
+
+    /* Speed Lines */
+    .speed-line {
+      animation:none;
+    }
+    @keyframes speedDash {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 140; }
+    }
+  </style>
+
+  <!-- ==================== 1. SKY AND SUN ==================== -->
+  <rect width="1200" height="750" fill="url(#skyGrad)"/>
+
+  <!-- Glowing Sun on Top Left cheering on the heroes -->
+  <g>
+    <circle cx="180" cy="105" r="105" fill="url(#sunGlow)"/>
+    <g class="sun-rays" stroke="#fff3b0" stroke-width="5" stroke-linecap="round" opacity="0.65">
+      <line x1="180" y1="10" x2="180" y2="30"/>
+      <line x1="180" y1="180" x2="180" y2="200"/>
+      <line x1="85" y1="105" x2="105" y2="105"/>
+      <line x1="255" y1="105" x2="275" y2="105"/>
+      <line x1="112" y1="37" x2="126" y2="51"/>
+      <line x1="234" y1="159" x2="248" y2="173"/>
+      <line x1="248" y1="37" x2="234" y2="51"/>
+      <line x1="126" y1="159" x2="112" y2="173"/>
+    </g>
+    <circle cx="180" cy="105" r="46" fill="#ffe57f" stroke="#fff9c4" stroke-width="4"/>
+    <circle cx="166" cy="100" r="3.5" fill="#d87a16"/>
+    <circle cx="194" cy="100" r="3.5" fill="#d87a16"/>
+    <circle cx="158" cy="107" r="6" fill="#ff8a65" opacity="0.5"/>
+    <circle cx="202" cy="107" r="6" fill="#ff8a65" opacity="0.5"/>
+    <path d="M 171,106 Q 180,115 189,106" fill="none" stroke="#d87a16" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- ==================== 2. DRIFTING CLOUDS ==================== -->
+  <g class="cloud-slow">
+    <use href="#fluffyCloud" x="340" y="115" transform="scale(1.0)"/>
+    <use href="#fluffyCloud" x="720" y="85" transform="scale(0.85)"/>
+    <use href="#fluffyCloud" x="1540" y="115" transform="scale(1.0)"/>
+    <use href="#fluffyCloud" x="1920" y="85" transform="scale(0.85)"/>
+  </g>
+
+  <!-- Distant Rolling Hills -->
+  <path d="M 0,430 Q 180,340 410,395 T 830,375 T 1200,405 L 1200,520 L 0,520 Z" fill="url(#farHillGrad)"/>
+  <path d="M 0,455 Q 260,390 540,435 T 1050,400 T 1200,435 L 1200,520 L 0,520 Z" fill="url(#midHillGrad)"/>
+
+  <!-- ==================== 3. SCROLLING MIDGROUND TREES AND PARK ==================== -->
+  <g class="bg-midground-scroll">
+    <g>
+      <g fill="#fffdf9" stroke="#d7ccc8" stroke-width="1.5">
+        <rect x="0" y="446" width="1200" height="6"/>
+        <rect x="0" y="462" width="1200" height="6"/>
+      </g>
+      <use href="#scenicTree" x="95" y="425"/>
+      <use href="#flowerBush" x="165" y="476"/>
+      <use href="#scenicTree" x="330" y="430" transform="scale(0.85) translate(58, 76)"/>
+      <use href="#flowerBush" x="470" y="476"/>
+      <use href="#scenicTree" x="620" y="422"/>
+      <use href="#flowerBush" x="720" y="476"/>
+      <use href="#scenicTree" x="890" y="428"/>
+      <use href="#flowerBush" x="1020" y="476"/>
+      <use href="#scenicTree" x="1130" y="424"/>
+    </g>
+    <g transform="translate(1200, 0)">
+      <g fill="#fffdf9" stroke="#d7ccc8" stroke-width="1.5">
+        <rect x="0" y="446" width="1200" height="6"/>
+        <rect x="0" y="462" width="1200" height="6"/>
+      </g>
+      <use href="#scenicTree" x="95" y="425"/>
+      <use href="#flowerBush" x="165" y="476"/>
+      <use href="#scenicTree" x="330" y="430" transform="scale(0.85) translate(58, 76)"/>
+      <use href="#flowerBush" x="470" y="476"/>
+      <use href="#scenicTree" x="620" y="422"/>
+      <use href="#flowerBush" x="720" y="476"/>
+      <use href="#scenicTree" x="890" y="428"/>
+      <use href="#flowerBush" x="1020" y="476"/>
+      <use href="#scenicTree" x="1130" y="424"/>
+    </g>
+  </g>
+
+  <!-- ==================== 4. ROAD AND SCROLLING DETAILS ==================== -->
+  <rect x="0" y="472" width="1200" height="24" fill="url(#grassStripGrad)"/>
+  <rect x="0" y="492" width="1200" height="175" fill="url(#roadGrad)"/>
+  <line x1="0" y1="492" x2="1200" y2="492" stroke="#c8a273" stroke-width="4"/>
+
+  <g class="road-scroll">
+    <line x1="0" y1="562" x2="1480" y2="562" stroke="#fff5e4" stroke-width="6" stroke-dasharray="60 60" stroke-linecap="round" opacity="0.75"/>
+    <g fill="#b58d5e" opacity="0.65">
+      <ellipse cx="45" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="130" cy="618" rx="11" ry="4"/>
+      <ellipse cx="210" cy="535" rx="6" ry="2.5"/>
+      <ellipse cx="285" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="370" cy="618" rx="11" ry="4"/>
+      <ellipse cx="450" cy="535" rx="6" ry="2.5"/>
+      <ellipse cx="525" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="610" cy="618" rx="11" ry="4"/>
+      <ellipse cx="690" cy="535" rx="6" ry="2.5"/>
+      <ellipse cx="765" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="850" cy="618" rx="11" ry="4"/>
+      <ellipse cx="930" cy="535" rx="6" ry="2.5"/>
+      <ellipse cx="1005" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="1090" cy="618" rx="11" ry="4"/>
+      <ellipse cx="1170" cy="535" rx="6" ry="2.5"/>
+      <ellipse cx="1245" cy="520" rx="8" ry="3.5"/>
+      <ellipse cx="1330" cy="618" rx="11" ry="4"/>
+      <ellipse cx="1410" cy="535" rx="6" ry="2.5"/>
+    </g>
+  </g>
+
+  <!-- Ground Shadows -->
+  <ellipse cx="220" cy="580" rx="68" ry="10" fill="#8d673f" opacity="0.4"/>
+  <ellipse cx="475" cy="580" rx="68" ry="10" fill="#8d673f" opacity="0.4"/>
+  <ellipse cx="348" cy="580" rx="115" ry="13" fill="#8d673f" opacity="0.26"/>
+  <!-- Bubu and Dudu Shadows -->
+  <ellipse cx="555" cy="598" rx="48" ry="11" fill="#8d673f" opacity="0.4"/>
+  <ellipse cx="668" cy="592" rx="50" ry="11" fill="#8d673f" opacity="0.4"/>
+  <!-- Trump-Dragon Shadow -->
+  <ellipse cx="1010" cy="590" rx="95" ry="18" fill="#6d4c41" opacity="0.42">
+    
+    
+  </ellipse>
+
+  <!-- ==================== 5. PELICAN RIDING BICYCLE (ON LEFT, CHEERING THE TEAM!) ==================== -->
+  <!-- Shifted left (-215px) and scaled slightly (0.92) so the whole bike, Bubu, Dudu, and Dragon fit spaciously -->
+  <g transform="translate(-210, 12) scale(0.95)">
+    <!-- Motion Speed Lines Behind Bike -->
+    <g stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.65" stroke-dasharray="45 95" class="speed-line">
+      <line x1="250" y1="290" x2="390" y2="290"/>
+      <line x1="230" y1="365" x2="360" y2="365"/>
+      <line x1="260" y1="445" x2="390" y2="445"/>
+    </g>
+
+    <!-- Rotating Rear and Front Wheels -->
+    <g transform="translate(440, 500)">
+      <use href="#bicycleWheel">
+        
+      </use>
+    </g>
+
+    <g transform="translate(720, 500)">
+      <use href="#bicycleWheel">
+        
+      </use>
+    </g>
+
+    <!-- Pelican Left Leg and Back Pedal -->
+    <g transform="translate(555, 500)">
+      <g>
+        
+        <line x1="0" y1="0" x2="34" y2="0" stroke="#78909c" stroke-width="7" stroke-linecap="round"/>
+        <g transform="translate(34, 0)">
+          <g>
+            
+            <rect x="-16" y="-4" width="32" height="9" rx="3" fill="#37474f" stroke="#263238" stroke-width="1.5"/>
+            <rect x="-10" y="-2" width="20" height="4" rx="1.5" fill="#ffb300"/>
+            <path d="M -8,-4 L 22,-4 C 26,-10 18,-15 8,-13 L -6,-10 Z" fill="#ef6c00" stroke="#bf360c" stroke-width="2" stroke-linejoin="round"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <path fill="none" stroke="#ef6c00" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+      
+    </path>
+
+    <!-- Bicycle Frame and Basket -->
+    <g class="bike-bounce">
+      <path d="M 535,280 Q 605,305 654,310" fill="none" stroke="#dcd6c8" stroke-width="20" stroke-linecap="round"/>
+      <path d="M 356,488 A 84,84 0 0,1 516,464" fill="none" stroke="#ff7043" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 642,468 A 84,84 0 0,1 798,472" fill="none" stroke="#ff7043" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 440,500 L 415,412 L 492,412" fill="none" stroke="#90a4ae" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M 440,490 L 555,478 L 555,522 L 440,510 Z" fill="none" stroke="#546e7a" stroke-width="3" stroke-dasharray="6 4"/>
+
+      <g fill="none" stroke="url(#bikeFrameGrad)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="440" y1="500" x2="555" y2="500"/>
+        <line x1="440" y1="500" x2="502" y2="390"/>
+        <line x1="555" y1="500" x2="494" y2="365"/>
+        <path d="M 555,500 Q 625,455 676,374"/>
+        <path d="M 500,382 Q 585,402 672,360"/>
+        <path d="M 672,352 L 720,500"/>
+      </g>
+
+      <line x1="494" y1="365" x2="486" y2="342" stroke="url(#chromeGrad)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M 672,352 L 660,308 L 635,314" fill="none" stroke="url(#chromeGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Golden Bicycle Bell Ringing Furiously for Battle -->
+      <circle cx="652" cy="296" r="9" fill="#ffd54f" stroke="#f57f17" stroke-width="2"/>
+      <g stroke="#ffb300" stroke-width="2.5" fill="none" stroke-linecap="round">
+        <path d="M 644,282 Q 652,275 660,282">
+          
+        </path>
+        <path d="M 638,274 Q 652,264 666,274">
+          
+        </path>
+      </g>
+
+      <path d="M 452,340 C 452,328 518,332 522,344 C 524,354 495,356 472,354 C 456,352 452,348 452,340 Z" fill="#6d4c41" stroke="#3e2723" stroke-width="3"/>
+
+      <!-- Front Wicker Basket -->
+      <g transform="translate(684, 326)">
+        <g transform="translate(26, -6) rotate(18)">
+          <path d="M 0,10 C 8,-6 22,-8 26,4 C 22,16 8,14 0,10 Z" fill="#4fc3f7" stroke="#0277bd" stroke-width="2"/>
+          <path d="M 24,4 L 38,-6 L 34,4 L 38,14 Z" fill="#29b6f6" stroke="#0277bd" stroke-width="2" stroke-linejoin="round"/>
+        </g>
+        <circle cx="12" cy="-4" r="7" fill="#ff80ab" stroke="#c51162" stroke-width="1.5"/>
+        <circle cx="12" cy="-4" r="3" fill="#ffee58"/>
+        <circle cx="24" cy="-8" r="6" fill="#fff176" stroke="#f57f17" stroke-width="1.5"/>
+        <circle cx="24" cy="-8" r="2.5" fill="#ff6f00"/>
+
+        <path d="M 0,0 L 48,0 L 40,42 L 6,42 Z" fill="url(#basketGrad)" stroke="#795548" stroke-width="3" stroke-linejoin="round"/>
+        <line x1="3" y1="14" x2="45" y2="14" stroke="#8d6e63" stroke-width="2.5"/>
+        <line x1="5" y1="28" x2="42" y2="28" stroke="#8d6e63" stroke-width="2.5"/>
+        <line x1="16" y1="0" x2="18" y2="42" stroke="#8d6e63" stroke-width="2.5"/>
+        <line x1="32" y1="0" x2="30" y2="42" stroke="#8d6e63" stroke-width="2.5"/>
+        <rect x="-3" y="-4" width="54" height="7" rx="3.5" fill="#d7a15c" stroke="#795548" stroke-width="2.5"/>
+      </g>
+
+      <!-- Crank Chainring -->
+      <g transform="translate(555, 500)">
+        <circle cx="0" cy="0" r="24" fill="#eceff1" stroke="#546e7a" stroke-width="4"/>
+        <circle cx="0" cy="0" r="17" fill="none" stroke="#90a4ae" stroke-width="3" stroke-dasharray="8 6">
+          
+        </circle>
+        <circle cx="0" cy="0" r="7" fill="#00acc1"/>
+      </g>
+    </g>
+
+    <!-- Pelican Right Leg and Front Pedal -->
+    <path fill="none" stroke="#ff8f00" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      
+    </path>
+
+    <g transform="translate(555, 500)">
+      <g>
+        
+        <line x1="0" y1="0" x2="34" y2="0" stroke="#cfd8dc" stroke-width="7.5" stroke-linecap="round"/>
+        <circle cx="0" cy="0" r="5" fill="#37474f"/>
+        <g transform="translate(34, 0)">
+          <g>
+            
+            <rect x="-16" y="-4" width="32" height="9" rx="3" fill="#263238" stroke="#cfd8dc" stroke-width="1.5"/>
+            <rect x="-10" y="-2" width="20" height="4" rx="1.5" fill="#ffb300"/>
+            <path d="M -8,-4 L 24,-4 C 28,-11 19,-16 8,-14 L -7,-10 Z" fill="#ff8f00" stroke="#e65100" stroke-width="2" stroke-linejoin="round"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Pelican Body, Wings, Head and Pouch -->
+    <g class="bike-bounce">
+      <path d="M 432,326 L 392,306 L 408,324 L 388,334 L 414,340 L 402,350 L 442,346 Z" fill="#ffffff" stroke="#b0a89b" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M 432,328 C 425,272 480,234 542,244 C 588,252 606,294 584,335 C 562,368 455,368 432,328 Z" fill="url(#pelicanBodyGrad)" stroke="#787166" stroke-width="3.2"/>
+      <path d="M 465,332 C 468,360 518,365 526,338 C 512,344 480,342 465,332 Z" fill="#f8f6f0" stroke="#9e9589" stroke-width="2.2"/>
+
+      <g class="pelican-head-bob">
+        <g class="scarf-flutter">
+          <path d="M 556,236 C 510,232 468,215 434,228 L 444,244 L 426,254 C 468,254 516,256 558,250 Z" fill="#ff5252" stroke="#b71c1c" stroke-width="2.5" stroke-linejoin="round"/>
+          <path d="M 465,225 L 462,250 M 495,229 L 492,252 M 525,233 L 522,251" stroke="#ffd54f" stroke-width="4"/>
+        </g>
+
+        <path d="M 538,256 C 534,218 548,176 560,152 C 574,126 608,128 606,162 C 604,195 586,232 582,262 Z" fill="url(#pelicanBodyGrad)" stroke="#787166" stroke-width="3.2"/>
+        <path d="M 536,242 Q 562,252 586,242 L 584,258 Q 560,268 534,256 Z" fill="#ff5252" stroke="#b71c1c" stroke-width="2.5"/>
+
+        <path d="M 552,146 L 528,132 L 544,152 L 524,150 L 548,164 Z" fill="#ffffff" stroke="#787166" stroke-width="2.5" stroke-linejoin="round"/>
+        <ellipse cx="584" cy="152" rx="34" ry="28" fill="#ffffff" stroke="#787166" stroke-width="3.2"/>
+
+        <g class="pouch-jiggle">
+          <path d="M 598,162 L 758,158 C 756,222 695,256 638,244 C 598,236 588,196 598,162 Z" fill="url(#pouchGrad)" stroke="#d84315" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M 618,175 Q 642,220 688,225" fill="none" stroke="#e64a19" stroke-width="2.2" opacity="0.65" stroke-linecap="round"/>
+          <path d="M 642,172 Q 668,205 715,204" fill="none" stroke="#e64a19" stroke-width="2.2" opacity="0.65" stroke-linecap="round"/>
+          <path d="M 608,168 Q 675,180 742,165" fill="none" stroke="#b71c1c" stroke-width="2.5" stroke-linecap="round"/>
+        </g>
+
+        <path d="M 604,136 L 752,144 C 766,145 772,154 766,165 C 761,170 754,166 752,160 L 596,164 C 590,152 595,138 604,136 Z" fill="url(#beakTopGrad)" stroke="#e65100" stroke-width="3" stroke-linejoin="round"/>
+        <ellipse cx="632" cy="146" rx="4" ry="1.8" fill="#bf360c"/>
+
+        <ellipse cx="598" cy="160" rx="10" ry="6.5" fill="#ff8a80" opacity="0.6"/>
+        <!-- Determined Cheering Eye -->
+        <g class="eye-blink">
+          <circle cx="594" cy="144" r="8.5" fill="#fffde7" stroke="#4a3b32" stroke-width="2.2"/>
+          <circle cx="596" cy="144" r="5" fill="#212121"/>
+          <circle cx="598" cy="141" r="2" fill="#ffffff"/>
+          <path d="M 585,134 L 604,138" stroke="#4a3b32" stroke-width="3" stroke-linecap="round"/>
+        </g>
+
+        <!-- Captain Cap -->
+        <g transform="translate(578, 124) rotate(-12)">
+          <path d="M -26,4 C -26,-16 24,-18 26,4 Z" fill="#ffffff" stroke="#1e3a8a" stroke-width="2.8"/>
+          <path d="M -28,2 L 28,2 L 26,9 L -26,9 Z" fill="#1e3a8a"/>
+          <path d="M 2,5 L 38,8 C 36,14 22,15 2,9 Z" fill="#0f172a"/>
+          <circle cx="2" cy="5" r="3" fill="#ffd54f"/>
+        </g>
+      </g>
+
+      <g>
+        <path d="M 508,274 C 548,262 592,285 636,312 C 618,325 582,324 548,315 C 514,306 492,292 508,274 Z" fill="url(#pelicanWingGrad)" stroke="#787166" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M 522,292 Q 554,296 575,308" fill="none" stroke="#9e9589" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M 538,280 Q 572,286 598,302" fill="none" stroke="#9e9589" stroke-width="2.5" stroke-linecap="round"/>
+        <ellipse cx="636" cy="314" rx="13" ry="9" transform="rotate(15 636 314)" fill="#ffffff" stroke="#787166" stroke-width="2.8"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 6. BUBU AND DUDU HEROIC TEAM-UP (CENTER STAGE) ==================== -->
+  <!-- Golden-Pink Team-Up Power Aura Behind Bubu and Dudu -->
+  <ellipse cx="615" cy="480" rx="155" ry="125" fill="url(#heroAuraGrad)" class="hero-aura"/>
+
+  <!-- Dust Puffs Behind Bubu and Dudu -->
+  <g>
+    <g class="dust-1" transform="translate(505, 590)">
+      <circle cx="0" cy="0" r="11" fill="#fff7e8" opacity="0.85"/>
+      <circle cx="-12" cy="4" r="8" fill="#fff7e8" opacity="0.7"/>
+    </g>
+    <g class="dust-2" transform="translate(625, 586)">
+      <circle cx="0" cy="0" r="10" fill="#fff7e8" opacity="0.8"/>
+      <circle cx="-10" cy="3" r="7" fill="#fff7e8" opacity="0.65"/>
+    </g>
+  </g>
+
+  <!-- BUBU (White Panda-Bear Heroine on Left of Duo, Channeling Heart-Beam Energy!) -->
+  <g id="bubu-hero">
+    <g class="bubu-body-bounce">
+      <!-- Fluttering Pink Hero Cape on Bubu -->
+      <path d="M 522,492 C 482,495 452,518 446,542 L 464,546 L 456,562 C 486,556 512,542 528,526 Z" fill="#ff4081" stroke="#880e4f" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- Back Leg -->
+      <g class="bubu-leg-back">
+        <ellipse cx="575" cy="576" rx="15" ry="24" fill="#ebe4dc" stroke="#4a3b32" stroke-width="3.5"/>
+        <ellipse cx="579" cy="590" rx="6.5" ry="4" fill="#ff9eb5"/>
+      </g>
+
+      <!-- Cute Round Tail -->
+      <circle cx="512" cy="538" r="12" fill="#ffffff" stroke="#4a3b32" stroke-width="3.5"/>
+
+      <!-- Chubby White Body -->
+      <path d="M 522,495 C 512,528 516,570 558,570 C 600,570 604,528 592,495 Z" fill="url(#bubuFurGrad)" stroke="#4a3b32" stroke-width="3.8" stroke-linejoin="round"/>
+      <ellipse cx="564" cy="536" rx="24" ry="20" fill="#fff0f3" opacity="0.8"/>
+
+      <!-- Front Leg -->
+      <g class="bubu-leg-front">
+        <ellipse cx="545" cy="576" rx="15" ry="24" fill="#ffffff" stroke="#4a3b32" stroke-width="3.5"/>
+        <ellipse cx="549" cy="590" rx="6.5" ry="4" fill="#ff9eb5"/>
+      </g>
+
+      <!-- Big Kawaii White Head with Hero Headband -->
+      <g transform="translate(558, 438)">
+        <!-- Ears -->
+        <circle cx="-46" cy="-45" r="18" fill="#ffffff" stroke="#4a3b32" stroke-width="3.8"/>
+        <circle cx="-46" cy="-45" r="9.5" fill="#ffb2c5"/>
+        <circle cx="42" cy="-47" r="18" fill="#ffffff" stroke="#4a3b32" stroke-width="3.8"/>
+        <circle cx="42" cy="-47" r="9.5" fill="#ffb2c5"/>
+
+        <!-- Head Shape -->
+        <path d="M -62,4 C -66,-40 -40,-62 0,-62 C 40,-62 66,-40 64,4 C 66,36 42,52 0,52 C -42,52 -66,36 -62,4 Z" fill="url(#bubuFurGrad)" stroke="#4a3b32" stroke-width="3.8"/>
+
+        <!-- Red Warrior Headband + Fluttering Tails -->
+        <path d="M -60,-28 Q 0,-40 60,-28 L 62,-16 Q 0,-28 -62,-16 Z" fill="#ff1744" stroke="#880e4f" stroke-width="2.5"/>
+        <path d="M -60,-24 C -85,-38 -105,-28 -115,-14 L -102,-8 L -112,4 C -92,2 -75,-10 -60,-18 Z" fill="#ff1744" stroke="#880e4f" stroke-width="2.2" stroke-linejoin="round"/>
+        <circle cx="4" cy="-24" r="6" fill="#ffd740" stroke="#880e4f" stroke-width="2"/>
+
+        <!-- Rosy Cheeks -->
+        <ellipse cx="-36" cy="14" rx="17" ry="11" fill="url(#cheekBlush)"/>
+        <ellipse cx="42" cy="12" rx="17" ry="11" fill="url(#cheekBlush)"/>
+
+        <!-- Fierce Cute Determined Eyes -->
+        <g class="eye-blink">
+          <circle cx="-18" cy="-3" r="7.5" fill="#2d221e"/>
+          <circle cx="-20" cy="-6" r="2.8" fill="#ffffff"/>
+          <circle cx="26" cy="-4" r="7.5" fill="#2d221e"/>
+          <circle cx="24" cy="-7" r="2.8" fill="#ffffff"/>
+        </g>
+        <!-- Determined Heroic Eyebrows -->
+        <path d="M -28,-16 L -10,-11" stroke="#4a3b32" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M 35,-16 L 17,-11" stroke="#4a3b32" stroke-width="3.2" stroke-linecap="round"/>
+
+        <!-- Cute Battle Cry Mouth -->
+        <ellipse cx="4" cy="3" rx="4.5" ry="3.2" fill="#4a3b32"/>
+        <path d="M -4,8 Q 4,6 12,8 C 14,21 -6,21 -4,8 Z" fill="#ff6b8b" stroke="#4a3b32" stroke-width="2.6"/>
+      </g>
+
+      <!-- Bubu Both Paws Thrust Forward Casting Team-Up Energy! -->
+      <ellipse cx="598" cy="492" rx="24" ry="13" transform="rotate(-12 598 492)" fill="#ffffff" stroke="#4a3b32" stroke-width="3.5"/>
+      <ellipse cx="592" cy="510" rx="24" ry="13" transform="rotate(-6 592 510)" fill="#ffffff" stroke="#4a3b32" stroke-width="3.5"/>
+      <circle cx="614" cy="489" r="5" fill="#ff9eb5"/>
+      <circle cx="608" cy="508" r="5" fill="#ff9eb5"/>
+    </g>
+  </g>
+
+  <!-- DUDU (Milk-Tea Brown Bear Hero on Right of Duo, Thrusting Rainbow Pinwheel Staff Forward!) -->
+  <g id="dudu-hero">
+    <g class="dudu-body-bounce">
+      <!-- Fluttering Royal-Blue Hero Cape on Dudu -->
+      <path d="M 632,482 C 594,488 572,512 566,536 L 584,540 L 578,556 C 606,548 625,534 640,518 Z" fill="#2979ff" stroke="#0d47a1" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- Back Leg -->
+      <g class="dudu-leg-back">
+        <ellipse cx="648" cy="568" rx="15" ry="24" fill="#b37d54" stroke="#4a3b32" stroke-width="3.5"/>
+        <ellipse cx="652" cy="582" rx="6.5" ry="4" fill="#f7d7ba"/>
+      </g>
+
+      <!-- Cute Round Brown Tail -->
+      <circle cx="616" cy="528" r="12" fill="#c38e64" stroke="#4a3b32" stroke-width="3.5"/>
+
+      <!-- Chubby Brown Body -->
+      <path d="M 626,486 C 616,520 620,562 664,562 C 708,562 712,520 700,486 Z" fill="url(#duduFurGrad)" stroke="#4a3b32" stroke-width="3.8" stroke-linejoin="round"/>
+      <ellipse cx="670" cy="526" rx="25" ry="21" fill="#fae5d0" opacity="0.85"/>
+
+      <!-- Front Leg -->
+      <g class="dudu-leg-front">
+        <ellipse cx="675" cy="568" rx="15" ry="24" fill="#c38e64" stroke="#4a3b32" stroke-width="3.5"/>
+        <ellipse cx="679" cy="582" rx="6.5" ry="4" fill="#f7d7ba"/>
+      </g>
+
+      <!-- Big Kawaii Brown Head with Hero Headband -->
+      <g transform="translate(668, 428)">
+        <!-- Ears -->
+        <circle cx="-46" cy="-45" r="18" fill="#c38e64" stroke="#4a3b32" stroke-width="3.8"/>
+        <circle cx="-46" cy="-45" r="9.5" fill="#8d5832"/>
+        <circle cx="44" cy="-45" r="18" fill="#c38e64" stroke="#4a3b32" stroke-width="3.8"/>
+        <circle cx="44" cy="-45" r="9.5" fill="#8d5832"/>
+
+        <!-- Head Shape -->
+        <path d="M -62,4 C -66,-40 -40,-62 0,-62 C 40,-62 66,-40 64,4 C 66,36 42,52 0,52 C -42,52 -66,36 -62,4 Z" fill="url(#duduFurGrad)" stroke="#4a3b32" stroke-width="3.8"/>
+
+        <!-- Golden-Blue Warrior Headband -->
+        <path d="M -60,-28 Q 0,-40 60,-28 L 62,-16 Q 0,-28 -62,-16 Z" fill="#2979ff" stroke="#0d47a1" stroke-width="2.5"/>
+        <circle cx="6" cy="-24" r="6.5" fill="#ffd740" stroke="#0d47a1" stroke-width="2"/>
+
+        <!-- Cream Muzzle Patch -->
+        <ellipse cx="4" cy="11" rx="22" ry="17" fill="#fff3e3"/>
+
+        <!-- Rosy Cheeks -->
+        <ellipse cx="-38" cy="12" rx="17" ry="11" fill="url(#cheekBlush)"/>
+        <ellipse cx="42" cy="12" rx="17" ry="11" fill="url(#cheekBlush)"/>
+
+        <!-- Fierce Cute Determined Eyes Facing Right at Dragon -->
+        <g class="eye-blink">
+          <circle cx="-18" cy="-4" r="7.5" fill="#2d221e"/>
+          <circle cx="-16" cy="-7" r="2.8" fill="#ffffff"/>
+          <circle cx="28" cy="-4" r="7.5" fill="#2d221e"/>
+          <circle cx="30" cy="-7" r="2.8" fill="#ffffff"/>
+        </g>
+
+        <!-- Heroic Eyebrows -->
+        <path d="M -28,-17 L -10,-12" stroke="#4a3b32" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M 38,-17 L 20,-12" stroke="#4a3b32" stroke-width="3.2" stroke-linecap="round"/>
+
+        <!-- Chocolate Nose and Determined Battle Smile -->
+        <ellipse cx="4" cy="2" rx="5.5" ry="3.8" fill="#4a3b32"/>
+        <path d="M -6,10 Q 4,22 14,10 Z" fill="#ff758f" stroke="#4a3b32" stroke-width="2.5"/>
+      </g>
+
+      <!-- Dudu Front Paws Aiming the Spinning Pinwheel Blaster Forward! -->
+      <ellipse cx="704" cy="492" rx="24" ry="13" transform="rotate(-18 704 492)" fill="#c38e64" stroke="#4a3b32" stroke-width="3.5"/>
+      <ellipse cx="698" cy="510" rx="24" ry="13" transform="rotate(-8 698 510)" fill="#b37d54" stroke="#4a3b32" stroke-width="3.5"/>
+
+      <!-- Magic Rainbow Pinwheel Blaster Wand -->
+      <line x1="696" y1="512" x2="735" y2="468" stroke="#fff8e7" stroke-width="5" stroke-linecap="round"/>
+      <g class="pinwheel-spin">
+        <path d="M 735,468 C 735,438 764,438 764,468 Z" fill="#ff5252" stroke="#4a3b32" stroke-width="2.2"/>
+        <path d="M 735,468 C 765,468 765,497 735,497 Z" fill="#ffd740" stroke="#4a3b32" stroke-width="2.2"/>
+        <path d="M 735,468 C 735,498 706,498 706,468 Z" fill="#40c4ff" stroke="#4a3b32" stroke-width="2.2"/>
+        <path d="M 735,468 C 705,468 705,439 735,439 Z" fill="#69f0ae" stroke="#4a3b32" stroke-width="2.2"/>
+        <circle cx="735" cy="468" r="6" fill="#ffffff" stroke="#4a3b32" stroke-width="2.2"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 7. THE MONSTER TRUMP-DRAGON BOSS (COMING IN FROM THE RIGHT!) ==================== -->
+  <g class="trump-dragon-boss">
+    <!-- Far Dragon Wing (Leathery Orange Wing Flapping) -->
+    <g class="dragon-wing-flap">
+      <path d="M 1015,315 C 1035,215 1125,175 1175,205 C 1145,235 1130,265 1145,290 C 1110,275 1085,295 1090,325 C 1060,310 1035,320 1015,335 Z" fill="#e65100" stroke="#4a2508" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M 1025,310 C 1045,235 1115,200 1158,220 C 1132,245 1122,268 1132,285 C 1102,272 1080,290 1082,315 Z" fill="url(#dragonWingInner)" opacity="0.85"/>
+    </g>
+
+    <!-- Spiked Orange Dragon Tail Thrashing Behind -->
+    <g class="dragon-tail-wag">
+      <path d="M 1070,475 C 1135,495 1175,455 1192,395 C 1165,425 1125,445 1075,435 Z" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="3.8" stroke-linejoin="round"/>
+      <!-- Tail Spikes -->
+      <polygon points="1115,442 1125,422 1135,444" fill="#ffd54f" stroke="#4a2508" stroke-width="2.2"/>
+      <polygon points="1150,432 1164,412 1168,435" fill="#ffd54f" stroke="#4a2508" stroke-width="2.2"/>
+      <polygon points="1192,395 1208,378 1202,408 1180,404" fill="#ff1744" stroke="#4a2508" stroke-width="2.2"/>
+    </g>
+
+    <!-- Heavy Dragon Hind Legs with White Claws -->
+    <g>
+      <path d="M 945,515 C 930,545 928,572 952,578 L 985,578 C 992,555 985,525 975,515 Z" fill="#e65100" stroke="#4a2508" stroke-width="3.8"/>
+      <circle cx="936" cy="574" r="7" fill="#fff8e1" stroke="#4a2508" stroke-width="2.2"/>
+      <circle cx="950" cy="577" r="7" fill="#fff8e1" stroke="#4a2508" stroke-width="2.2"/>
+
+      <path d="M 1035,515 C 1025,548 1022,575 1048,580 L 1082,580 C 1090,555 1080,522 1068,510 Z" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="3.8"/>
+      <circle cx="1032" cy="576" r="7.5" fill="#fff8e1" stroke="#4a2508" stroke-width="2.2"/>
+      <circle cx="1048" cy="579" r="7.5" fill="#fff8e1" stroke="#4a2508" stroke-width="2.2"/>
+    </g>
+
+    <!-- Hefty Tangerine-Orange Dragon Torso -->
+    <path d="M 912,355 C 882,425 900,535 995,542 C 1095,548 1118,455 1088,365 C 1068,312 938,308 912,355 Z" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Dragon Back Ridge Spikes -->
+    <polygon points="1082,355 1108,342 1092,375" fill="#ffd54f" stroke="#4a2508" stroke-width="2.5"/>
+    <polygon points="1096,395 1124,385 1102,418" fill="#ffd54f" stroke="#4a2508" stroke-width="2.5"/>
+    <polygon points="1098,438 1125,432 1098,460" fill="#ffd54f" stroke="#4a2508" stroke-width="2.5"/>
+
+    <!-- Plump Ribbed Golden-Yellow Dragon Belly -->
+    <path d="M 916,372 C 896,435 912,522 982,534 C 1035,538 1052,445 1018,370 Z" fill="url(#trumpBellyGrad)" stroke="#b26a00" stroke-width="3"/>
+    <path d="M 914,412 Q 965,424 1026,408" fill="none" stroke="#c67c00" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 912,452 Q 965,466 1032,448" fill="none" stroke="#c67c00" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M 922,492 Q 968,504 1022,488" fill="none" stroke="#c67c00" stroke-width="2.8" stroke-linecap="round"/>
+
+    <!-- Navy Blue Suit Jacket Lapels and Crisp White Shirt Collar on Dragon Chest! -->
+    <path d="M 915,342 L 896,415 L 942,402 L 948,354 Z" fill="#1a237e" stroke="#0d134a" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 1015,346 L 1045,420 L 992,406 L 982,356 Z" fill="#1a237e" stroke="#0d134a" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Flag Lapel Pin -->
+    <rect x="1002" y="372" width="12" height="8" rx="1" fill="#ffffff" stroke="#0d134a" stroke-width="1"/>
+    <rect x="1002" y="372" width="6" height="4" fill="#1565c0"/>
+    <line x1="1002" y1="378" x2="1014" y2="378" stroke="#d32f2f" stroke-width="2"/>
+    <!-- White Shirt Collar -->
+    <polygon points="928,344 958,372 942,382 918,356" fill="#ffffff" stroke="#cfd8dc" stroke-width="2"/>
+    <polygon points="995,346 962,372 980,382 1006,358" fill="#ffffff" stroke="#cfd8dc" stroke-width="2"/>
+
+    <!-- Comically Extra-Long Bright Red Silk Tie Flapping Wildly! -->
+    <g class="red-tie-swing">
+      <polygon points="950,362 970,362 966,378 954,378" fill="#c62828" stroke="#7f0000" stroke-width="2"/>
+      <path d="M 954,376 L 966,376 L 978,496 L 958,522 L 938,496 Z" fill="#e53935" stroke="#7f0000" stroke-width="2.8" stroke-linejoin="round"/>
+      <path d="M 956,395 L 968,485" stroke="#ff8a80" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    </g>
+
+    <!-- Near Dragon Wing (Right Side) -->
+    <g class="dragon-wing-flap">
+      <path d="M 1045,335 C 1085,235 1175,205 1215,245 C 1185,272 1168,302 1180,328 C 1142,312 1118,332 1120,362 C 1090,342 1065,348 1045,358 Z" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="3.8" stroke-linejoin="round"/>
+      <path d="M 1058,332 C 1092,255 1162,232 1196,258 C 1172,282 1160,304 1168,322 C 1138,308 1114,324 1114,348 Z" fill="url(#dragonWingInner)"/>
+    </g>
+
+    <!-- Comically Tiny T-Rex Dragon Hands with White Cuffs and Pointing Index Finger! -->
+    <!-- Left Tiny Hand -->
+    <g transform="translate(902, 392) rotate(12)">
+      <rect x="-6" y="-8" width="16" height="14" rx="2" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+      <rect x="4" y="-12" width="18" height="18" rx="3" fill="#1a237e" stroke="#0d134a" stroke-width="2.5"/>
+      <circle cx="-12" cy="0" r="10" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="2.5"/>
+      <!-- Tiny Pointing Finger Gesture -->
+      <path d="M -18,-2 L -28,-14" stroke="#ffa726" stroke-width="5" stroke-linecap="round"/>
+      <path d="M -18,-2 L -28,-14" stroke="#4a2508" stroke-width="2" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Right Tiny Hand -->
+    <g transform="translate(1018, 405) rotate(-18)">
+      <rect x="-10" y="-8" width="16" height="14" rx="2" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+      <rect x="0" y="-12" width="18" height="18" rx="3" fill="#1a237e" stroke="#0d134a" stroke-width="2.5"/>
+      <circle cx="-16" cy="0" r="10" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="2.5"/>
+      <path d="M -22,-2 L -32,-14" stroke="#ffa726" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <!-- ==================== TRUMP-DRAGON HEAD AND ICONIC GOLDEN COMB-OVER ==================== -->
+    <g transform="translate(965, 265)">
+      <!-- Heavy Jowly Orange Dragon Head and Snout Facing Left -->
+      <path d="M -78,-15 C -92,-15 -98,15 -84,35 C -76,55 -52,78 -12,82 C 42,86 78,62 76,12 C 74,-38 35,-65 -18,-58 C -52,-54 -62,-18 -78,-15 Z" fill="url(#trumpDragonSkin)" stroke="#4a2508" stroke-width="4" stroke-linejoin="round"/>
+
+      <!-- Prominent Double Chin / Jowl Fold -->
+      <path d="M -56,55 Q -18,74 24,58" fill="none" stroke="#bf360c" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M -42,68 Q -12,82 18,70" fill="none" stroke="#bf360c" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Flared Dragon Nostril with Tiny Smoke Puff -->
+      <ellipse cx="-68" cy="2" rx="5" ry="3.5" fill="#4a2508"/>
+
+      <!-- Signature Pale-Pinkish Eye Goggles / Tan Line Circles -->
+      <ellipse cx="-38" cy="-12" rx="16" ry="13" fill="#ffccb3" opacity="0.85"/>
+      <ellipse cx="6" cy="-10" rx="17" ry="13" fill="#ffccb3" opacity="0.85"/>
+
+      <!-- NORMAL SQUINTING EYES (Visible when charging in) -->
+      <g class="dragon-normal-eyes">
+        <path d="M -50,-12 Q -38,-18 -26,-10 Q -38,-6 -50,-12 Z" fill="#ffffff" stroke="#4a2508" stroke-width="2.2"/>
+        <circle cx="-40" cy="-12" r="4" fill="#1976d2"/>
+        <circle cx="-40" cy="-12" r="2" fill="#000000"/>
+
+        <path d="M -6,-10 Q 6,-16 18,-8 Q 6,-4 -6,-10 Z" fill="#ffffff" stroke="#4a2508" stroke-width="2.2"/>
+        <circle cx="4" cy="-10" r="4" fill="#1976d2"/>
+        <circle cx="4" cy="-10" r="2" fill="#000000"/>
+      </g>
+
+      <!-- DIZZY SPIRAL EYES (Visible when blasted by Bubu and Dudu's beam!) -->
+      <g class="dragon-dizzy-eyes">
+        <circle cx="-38" cy="-12" r="11" fill="#ffffff" stroke="#4a2508" stroke-width="2.5"/>
+        <path d="M -38,-12 m 0,0 a 3,3 0 1,0 6,0 a 6,6 0 1,0 -12,0 a 8,8 0 1,0 16,0" fill="none" stroke="#d32f2f" stroke-width="2.2" stroke-linecap="round"/>
+
+        <circle cx="6" cy="-10" r="11" fill="#ffffff" stroke="#4a2508" stroke-width="2.5"/>
+        <path d="M 6,-10 m 0,0 a 3,3 0 1,0 6,0 a 6,6 0 1,0 -12,0 a 8,8 0 1,0 16,0" fill="none" stroke="#d32f2f" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+
+      <!-- Heavy Furrowed Golden-Blonde Eyebrows -->
+      <path d="M -54,-26 L -22,-18" stroke="#fdd835" stroke-width="7" stroke-linecap="round"/>
+      <path d="M -54,-26 L -22,-18" stroke="#f57f17" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 24,-24 L -8,-16" stroke="#fdd835" stroke-width="7" stroke-linecap="round"/>
+      <path d="M 24,-24 L -8,-16" stroke="#f57f17" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- Signature Pursed 'O' Trump Mouth with Little Dragon Fang -->
+      <g transform="translate(-52, 28)">
+        <ellipse cx="0" cy="0" rx="13" ry="15" fill="#ffab91" stroke="#bf360c" stroke-width="2.8"/>
+        <ellipse cx="-2" cy="0" rx="7" ry="9" fill="#3e2723"/>
+        <!-- Tiny Sharp Dragon Fang Peeking Out -->
+        <polygon points="4,-6 9,2 1,-4" fill="#ffffff" stroke="#4a2508" stroke-width="1.5"/>
+      </g>
+
+      <!-- Curved Dragon Horns Peeking Through Hair -->
+      <path d="M 18,-52 C 32,-82 58,-88 68,-72 C 56,-64 44,-54 36,-42 Z" fill="#fff8e1" stroke="#5d4037" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M 42,-42 C 58,-68 82,-72 90,-56 C 78,-48 64,-40 54,-30 Z" fill="#ffe082" stroke="#5d4037" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- ICONIC SWEEPING GOLDEN-BLONDE POMPADOUR COMB-OVER HAIR! -->
+      <g class="trump-hair-wave" transform="translate(-965, -265)">
+        <g transform="translate(965, 265)">
+          <!-- Main Voluminous Sweeping Golden Wave Over Forehead -->
+          <path d="M -96,-34 C -112,-62 -72,-96 -12,-92 C 48,-88 92,-62 96,-14 C 98,12 82,28 68,22 C 66,-6 44,-34 4,-38 C -36,-42 -68,-18 -96,-34 Z" fill="url(#trumpHairGrad)" stroke="#b26a00" stroke-width="3.8" stroke-linejoin="round"/>
+          <!-- Swooping Comb-Over Layered Strands -->
+          <path d="M -82,-45 Q -28,-78 46,-62" fill="none" stroke="#fffde7" stroke-width="4" stroke-linecap="round"/>
+          <path d="M -68,-36 Q -18,-62 62,-44" fill="none" stroke="#f57f17" stroke-width="3" stroke-linecap="round"/>
+          <path d="M -92,-34 C -68,-14 -32,-22 -8,-36" fill="none" stroke="#f57f17" stroke-width="3.2" stroke-linecap="round"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Dizzy Orbiting Stars and Hearts Above Dragon When Defeated/Zapped! -->
+    <g class="boss-hit-fx">
+      <g class="ko-stars-spin">
+        <use href="#goldStar" x="910" y="155" transform="scale(1.1)"/>
+        <use href="#goldStar" x="965" y="135" transform="scale(1.3)"/>
+        <use href="#goldStar" x="1020" y="155" transform="scale(1.1)"/>
+        <use href="#miniHeart" x="965" y="175" transform="scale(1.2)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== 8. BUBU AND DUDU TEAM-UP RAINBOW-LOVE LASER BEAM AND IMPACT! ==================== -->
+  <!-- Main Combined Energy Beam Firing from Bubu and Dudu into the Trump-Dragon -->
+  <g class="team-up-beam">
+    <!-- Charging Orb at Bubu and Dudu's Paws -->
+    <circle cx="695" cy="445" r="36" fill="#ff4081" opacity="0.75"/>
+    <circle cx="695" cy="445" r="24" fill="#ffffff"/>
+
+    <!-- Outer Rainbow-Pink-Gold Energy Beam Cone -->
+    <path d="M 695,432 L 945,305 L 965,375 L 695,458 Z" fill="url(#teamBeamOuter)" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Inner Brilliant White-Gold Core -->
+    <path d="M 695,439 L 948,326 L 956,354 L 695,451 Z" fill="url(#teamBeamCore)"/>
+
+    <!-- Spiraling Energy Rings Along the Beam -->
+    <ellipse cx="760" cy="415" rx="10" ry="30" transform="rotate(-18 760 415)" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.85"/>
+    <ellipse cx="835" cy="382" rx="12" ry="36" transform="rotate(-18 835 382)" fill="none" stroke="#ffd740" stroke-width="4" opacity="0.9"/>
+    <ellipse cx="905" cy="352" rx="14" ry="42" transform="rotate(-18 905 352)" fill="none" stroke="#ff4081" stroke-width="4" opacity="0.9"/>
+  </g>
+
+  <!-- Stream of Flying Hearts and Stars Blasting into the Dragon -->
+  <g class="dragon-dizzy-eyes">
+    <g class="projectile-flight-1">
+      <use href="#miniHeart" transform="scale(1.6)"/>
+    </g>
+    <g class="projectile-flight-2">
+      <use href="#goldStar" transform="scale(1.5)"/>
+    </g>
+    <g class="projectile-flight-3">
+      <use href="#miniHeart" transform="scale(1.8)"/>
+    </g>
+  </g>
+
+  <!-- Giant Comic Impact Starburst on the Dragon's Chest/Chin ("BONK! / POW!") -->
+  <g class="boss-hit-fx">
+    <circle cx="935" cy="335" r="85" fill="url(#impactExplosionGrad)"/>
+    <!-- Comic Spiky Starburst Polygon -->
+    <polygon points="
+      935,245 955,288 998,262 982,308 1028,315 988,342 1022,378 972,372 978,418 942,385
+      912,422 908,376 862,388 888,348 848,322 894,308 875,265 918,288"
+      fill="#ffee58" stroke="#ff1744" stroke-width="4" stroke-linejoin="round" opacity="0.92"/>
+    <polygon points="
+      935,272 948,302 980,285 968,318 998,325 972,342 992,365 958,360 960,392 938,368
+      918,392 916,360 885,368 905,342 878,324 908,315 896,285 924,302"
+      fill="#ffffff"/>
+
+    <!-- Comic Action Text "BONK!" -->
+    <text x="935" y="344" font-family="Impact, 'Arial Black', sans-serif" font-size="30" font-weight="900" fill="#d50000" stroke="#ffffff" stroke-width="2" text-anchor="middle" transform="rotate(-10 935 335)">BONK!</text>
+  </g>
+
+  <!-- ==================== 9. FOREGROUND GRASS AND FLOWERS (PARALLAX SCROLL) ==================== -->
+  <rect x="0" y="660" width="1200" height="90" fill="#3b8136"/>
+  <path d="M 0,660 Q 150,652 300,660 T 600,660 T 900,660 T 1200,660 L 1200,680 L 0,680 Z" fill="#51a34b"/>
+
+  <g class="fg-scroll">
+    <g transform="translate(0, 665)">
+      <path d="M 40,10 L 32,-16 L 44,4 L 48,-22 L 54,6 L 64,-12 L 58,10 Z" fill="#2e6b29"/>
+      <circle cx="48" cy="-16" r="5" fill="#fff176"/>
+      <path d="M 190,14 L 182,-12 L 194,6 L 198,-18 L 204,8 L 214,-10 L 208,14 Z" fill="#2e6b29"/>
+      <circle cx="198" cy="-12" r="5" fill="#ff80ab"/>
+      <path d="M 360,12 L 352,-14 L 364,4 L 368,-20 L 374,6 L 384,-12 L 378,12 Z" fill="#2e6b29"/>
+      <circle cx="368" cy="-14" r="5" fill="#ffffff"/>
+      <path d="M 510,14 L 502,-12 L 514,6 L 518,-18 L 524,8 L 534,-10 L 528,14 Z" fill="#2e6b29"/>
+      <circle cx="518" cy="-12" r="5" fill="#ffd54f"/>
+    </g>
+    <g transform="translate(600, 665)">
+      <path d="M 40,10 L 32,-16 L 44,4 L 48,-22 L 54,6 L 64,-12 L 58,10 Z" fill="#2e6b29"/>
+      <circle cx="48" cy="-16" r="5" fill="#fff176"/>
+      <path d="M 190,14 L 182,-12 L 194,6 L 198,-18 L 204,8 L 214,-10 L 208,14 Z" fill="#2e6b29"/>
+      <circle cx="198" cy="-12" r="5" fill="#ff80ab"/>
+      <path d="M 360,12 L 352,-14 L 364,4 L 368,-20 L 374,6 L 384,-12 L 378,12 Z" fill="#2e6b29"/>
+      <circle cx="368" cy="-14" r="5" fill="#ffffff"/>
+      <path d="M 510,14 L 502,-12 L 514,6 L 518,-18 L 524,8 L 534,-10 L 528,14 Z" fill="#2e6b29"/>
+      <circle cx="518" cy="-12" r="5" fill="#ffd54f"/>
+    </g>
+    <g transform="translate(1200, 665)">
+      <path d="M 40,10 L 32,-16 L 44,4 L 48,-22 L 54,6 L 64,-12 L 58,10 Z" fill="#2e6b29"/>
+      <circle cx="48" cy="-16" r="5" fill="#fff176"/>
+      <path d="M 190,14 L 182,-12 L 194,6 L 198,-18 L 204,8 L 214,-10 L 208,14 Z" fill="#2e6b29"/>
+      <circle cx="198" cy="-12" r="5" fill="#ff80ab"/>
+      <path d="M 360,12 L 352,-14 L 364,4 L 368,-20 L 374,6 L 384,-12 L 378,12 Z" fill="#2e6b29"/>
+      <circle cx="368" cy="-14" r="5" fill="#ffffff"/>
+      <path d="M 510,14 L 502,-12 L 514,6 L 518,-18 L 524,8 L 534,-10 L 528,14 Z" fill="#2e6b29"/>
+      <circle cx="518" cy="-12" r="5" fill="#ffd54f"/>
+    </g>
+  </g>
+</svg>
