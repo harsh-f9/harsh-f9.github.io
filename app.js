@@ -103,7 +103,7 @@ designButtons.forEach(button => button.addEventListener('click', () => {
   pageRoot.style.scrollBehavior = 'auto';
   if (wasAtTop) window.scrollTo({top:0,behavior:'instant'});
   else if (anchor) {
-    const headerOffset = design === 'classic' ? 80 : 105;
+    const headerOffset = design === 'classic' ? 80 : 76;
     window.scrollTo({top:window.scrollY + anchor.getBoundingClientRect().top - headerOffset,behavior:'instant'});
   }
   pageRoot.style.scrollBehavior = scrollBehavior;
